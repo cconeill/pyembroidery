@@ -1,6 +1,6 @@
 Run the full test suite and report results.
 
-Instructions:
-1. Run: `python -m unittest discover -s test -t .`
-2. Report: total tests run, pass/fail count, and any failure details
-3. If any tests fail, identify the failing test names and relevant error messages
+Steps:
+1. Run: `python -m unittest discover -s test -t . -v 2>&1 | tail -20`
+2. Report: number of tests run, pass/fail count, any failures with details
+3. If any tests fail, read the failing test file and the source file it tests, then diagnose the root cause
