@@ -1,3 +1,6 @@
+---
+model: sonnet
+---
 Check the current progress of the modernization plan.
 
 Steps:

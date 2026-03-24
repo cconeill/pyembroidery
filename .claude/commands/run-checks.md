@@ -1,3 +1,6 @@
+---
+model: haiku
+---
 Run the full test suite and report results.
 
 Steps:
